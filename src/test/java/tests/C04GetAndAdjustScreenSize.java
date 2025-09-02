@@ -1,5 +1,7 @@
 package tests;
 
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,12 +16,17 @@ public class C04GetAndAdjustScreenSize {
         driver.navigate().to("https://www.w3schools.com/");
 
         // Print the position and size of the page.
-        System.out.println("Position: " + driver.manage().window().getPosition());
-        System.out.println("Size: " + driver.manage().window().getSize());
+        Point position = driver.manage().window().getPosition();
+        System.out.println("position.getX() = " + position.getX());
+        System.out.println("position.getY() = " + position.getY());
+        System.out.println("position = " + position);
 
         // Adjust the position and size of the page as desired.
-        driver.manage().window().setPosition(new org.openqa.selenium.Point(100, 100));
-        driver.manage().window().setSize(new org.openqa.selenium.Dimension(1024, 768));
+        Dimension dimensions = driver.manage().window().getSize();
+        System.out.println("dimension.getHeight() = " + dimensions.getHeight());
+        System.out.println("dimension.getWidth() = " + dimensions.getWidth());
+        System.out.println("dimension = " + dimensions);
+
 
         // Test that the page is in the position and size you want.
         System.out.println("After Adjust Position: " + driver.manage().window().getPosition());
