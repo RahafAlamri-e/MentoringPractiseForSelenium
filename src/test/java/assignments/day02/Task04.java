@@ -30,10 +30,9 @@ public class Task04 {
 
     @Test
     void test1() {
-//    Navigate Google → YouTube → LinkedIn.
-//    Assert titles contain "Google", "YouTube", "LinkedIn" respectively.
+        String title;
         driver.navigate().to("https://www.google.com/");
-        String title = driver.getTitle();
+        title = driver.getTitle();
         Assertions.assertTrue(title.contains("Google"), "Title does not contain 'Google'");
         System.out.println("Google Title: " + title);
 
