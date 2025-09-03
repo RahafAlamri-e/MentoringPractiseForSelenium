@@ -1,17 +1,20 @@
-# 🚀 Mentoring Practise For Selenium  
+# 🚀 Mentoring Practise For Selenium and Test Automation
 
 Welcome to my **SDA Bootcamp (2025)** practice repository, in partnership with **Clarusway**!  
-Here, I’m documenting my journey of learning and applying **Selenium, JUnit, TestNG, and Jenkins** 💻✨  
+This repository documents my journey in mastering **Selenium, JUnit, TestNG, and Jenkins** while building practical test automation skills 💻✨.
 
 ---
 
 ## 🎯 Project Purpose  
-This repository is created to:  
-✅ Practice **Selenium WebDriver** automation.  
-✅ Learn and apply unit testing with **JUnit**.  
-✅ Explore advanced test management with **TestNG**.  
-✅ Gain hands-on experience with **Jenkins** for CI/CD.  
-✅ Track my bootcamp progress and assignments.  
+
+This repository is designed to:  
+- ✅ **Master Selenium WebDriver** for web automation.  
+- ✅ Apply **JUnit** for structured unit testing.  
+- ✅ Explore **TestNG** for advanced test management and reporting.  
+- ✅ Gain hands-on experience with **Jenkins** for CI/CD pipelines.  
+- ✅ Track progress and document bootcamp assignments effectively.
+
+By combining these tools, I aim to **build reliable, maintainable, and scalable automated test scripts**.
 
 ---
 
