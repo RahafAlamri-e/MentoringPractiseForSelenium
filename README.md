@@ -28,10 +28,4 @@ By combining these tools, I aim to **build reliable, maintainable, and scalable 
 
 ---
 
-## 🚀 Getting Started  
-
-1️⃣ Clone the repository:  
-```bash
-git clone https://github.com/RahafAlamri-e/MentoringPractiseForSelenium.git
-
 
