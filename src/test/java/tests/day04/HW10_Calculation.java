@@ -55,7 +55,7 @@ public class HW10_Calculation {
     }
 
     @Test
-    public void test10Subtraction() throws InterruptedException {
+    public void test10Subtraction(){
 //        Go to  https://testpages.eviltester.com/styled/calculator
         driver.get("https://testpages.eviltester.com/styled/calculator");
 
