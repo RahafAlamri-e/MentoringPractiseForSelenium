@@ -18,6 +18,8 @@ public class Task02 extends TestBase {
     void test(){
         driver.get(url);
         int frameCount = driver.findElements(By.xpath("//iframe")).size();
+        System.out.println("frameCount = " + frameCount);
+
         driver.switchTo().frame("a077aa5e");
 
         WebElement link = driver.findElement(By.tagName("a"));
