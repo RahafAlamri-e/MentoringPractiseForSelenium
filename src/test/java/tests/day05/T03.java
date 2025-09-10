@@ -22,7 +22,7 @@ Verify the message 'Deleted'
     By messageById = By.id("deletedMessage");
 
     @Test
-    void test() throws InterruptedException {
+    void test() {
         driver.get(url);
 
         // Enter full name

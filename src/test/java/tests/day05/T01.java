@@ -26,7 +26,7 @@ Use passcode to submit form
     By generateButtonByXpath = By.xpath("//button[@type='button']");
 
     @Test
-    void fillFormAndSubmitWithPasscode() throws InterruptedException {
+    void fillFormAndSubmitWithPasscode(){
 
         driver.get(url);
 
