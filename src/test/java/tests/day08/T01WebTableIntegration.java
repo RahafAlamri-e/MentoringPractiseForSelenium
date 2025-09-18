@@ -4,13 +4,13 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 import utilities.TestBase;
 import org.apache.poi.ss.usermodel.*;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.time.Duration;
+
 
 public class T01WebTableIntegration extends TestBase {
 
@@ -30,7 +30,6 @@ public class T01WebTableIntegration extends TestBase {
 
         Sheet sheet = workbook.getSheetAt(0);
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
         for (int i = 1; i <= 10; i++) {
             Row row = sheet.getRow(i);
@@ -41,7 +40,7 @@ public class T01WebTableIntegration extends TestBase {
             WebElement nameBox =driver.findElement(By.id("nameInput"));
             WebElement ageBox = driver.findElement(By.id("ageInput"));
             WebElement countryDropdown = driver.findElement(By.id("countrySelect"));
-            WebElement addButton = driver.findElement(By.xpath("//button[@onclick=\"addRecord()\"]"));
+            WebElement addButton = driver.findElement(By.xpath("//button[@onclick='addRecord()']"));
 
             nameBox.clear();
             nameBox.sendKeys(name);
